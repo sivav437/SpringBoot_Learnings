@@ -88,3 +88,8 @@
 
 NOTE: added key for updating the cache instead of creating new entry ( as we are providing consistent keys it updates the cache)
     
+
+## The cache abstraction works on two things :
+
+    Cache Declaration : It identifies the methods that need to be
+    Cache Configuration : The backing cache where data is stored and read from.
